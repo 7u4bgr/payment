@@ -22,14 +22,14 @@ const Kassam = ({ active, setActive }) => {
 
   return (
     <div>
-      <div className="control flex flex-column pl-5">
+      <div className="control flex flex-column">
         <div>
       
           <>
             {photo ? (
               <>
                 {active === "kassam" ? (
-                  <div className="grid grid-cols-2 pt-12 gap-12 md:grid-cols-4">
+                  <div className="grid grid-cols-2 justify-center items-center w-full pt-12 gap-20 md:grid-cols-4">
                     {data.map((item) => (
                       <div className="flex flex-col items-center justify-center bg-gray-300 rounded-xl p-5 gap-4">
                         <img className="w-20 h-20" src={item.photo} alt="" />

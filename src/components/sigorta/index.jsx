@@ -37,12 +37,12 @@ const Sigorta = ({active,setActive}) => {
           </div>
           <>
             {information ? (<>
-            {active==="sigorta"? <div className="grid grid-cols-2 w-auto pt-12 gap-12 pb-5 md:grid-cols-4">
+            {active==="sigorta"? <div className="grid grid-cols-2 w-auto pt-12 gap-20 pb-5 md:grid-cols-4">
                 {baktelecom.map((item) => (
                   
                     <div className="flex flex-col items-center justify-center bg-teal-300 rounded-xl p-5 gap-4">
 
-                  <img className="w-20 h-20" src={item.photo} alt="" />
+                  <img className="w-20 h-20 rounded-2xl" src={item.photo} alt="" />
                   <h2 className="font-mono">{item.name}</h2>
                     </div>
                  
