@@ -42,7 +42,7 @@ const Iconlar = ({ active, setActive }) => {
     setActive("store");
   };
   return (
-    <div className="grid grid-cols-4 w-full gap-5 md:grid-cols-8 md:gap-20">
+    <div className="grid grid-cols-4 w-full md:grid-cols-8 md:gap-20">
       <button
         title="Mobil Şəbəkələr"
         onClick={() => clickHandler()}
