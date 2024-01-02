@@ -53,9 +53,9 @@ const TV = ({active,setActive}) => {
             {active==="tv"? <div className="grid grid-cols-2 w-auto pt-12 gap-20 pb-5 md:grid-cols-4">
                 {baktelecom.map((item) => (
                   
-                    <div className="flex flex-col items-center justify-center bg-cyan-300 rounded-xl p-5 gap-4">
+                    <div className="flex flex-col items-center justify-center bg-cyan-300 rounded-xl p-5 gap-4 border-double border-4 border-lime-50 p-5">
 
-                  <img className="w-20 h-20 rounded-2xl" src={item.photo} alt="" />
+                  <img className="w-20 h-20 rounded-2xl object-cover" src={item.photo} alt="" />
                   <h2 className="font-mono">{item.name}</h2>
                     </div>
                  

@@ -46,58 +46,66 @@ const Iconlar = ({ active, setActive }) => {
       <button
         title="Mobil Şəbəkələr"
         onClick={() => clickHandler()}
-        className="border-none bg-gray-400 p-4 rounded"
+        className="border-none bg-gray-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <FacebookIcon />
+        <h2 className="pt-3">Mobil</h2>
       </button>
       <button
         title="Komunnal Ödənişlər"
         onClick={() => clickHandler1()}
-        className="border-none bg-red-400 p-4 rounded"
+        className="border-none bg-red-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <HomeIcon />
+        <h2 className="pt-3">Kommunal</h2>
       </button>
       <button
         title="Ev Telefonları"
         onClick={() => clickHandler2()}
-        className="border-none bg-amber-400 p-4 rounded"
+        className="border-none bg-amber-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <HomePhoneIcon />
+        <h2 className="pt-3">Ev Telefonu</h2>
       </button>
       <button
         title="Wifi"
         onClick={() => clickHandler3()}
-        className="border-none bg-lime-400 p-4 rounded"
+        className="border-none bg-lime-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <WifiIcon />
+        <h2 className="pt-3">İnternet</h2>
       </button>
       <button
         title="TV"
         onClick={() => clickHandler4()}
-        className="border-none bg-cyan-400 p-4 rounded"
+        className="border-none bg-cyan-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <TVIcon />
+        <h2 className="pt-3">TV</h2>
       </button>
       <button
         title="Bank"
         onClick={() => clickHandler5()}
-        className="border-none bg-fuchsia-400 p-4 rounded"
+        className="border-none bg-fuchsia-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <BankIcon />
+        <h2 className="pt-3">Bank Xidməti</h2>
       </button>
       <button
         title="Sığorta"
         onClick={() => clickHandler6()}
-        className="border-none bg-teal-400 p-4 rounded"
+        className="border-none bg-teal-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <SigortaIcon />
+        <h2 className="pt-3">Sığorta</h2>
       </button>
       <button
         title="Store"
         onClick={() => clickHandler7()}
-        className="border-none bg-emerald-400 p-4 rounded"
+        className="border-none bg-emerald-400 p-4 rounded flex flex-col items-center font-extrabold font-mono text-xs md:text-sm"
       >
         <StoreIcon />
+        <h2 className="pt-3">Mağaza</h2>
       </button>
     </div>
   );

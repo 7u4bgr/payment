@@ -17,10 +17,10 @@ const Home = () => {
     <div>
       <Wrapper>
         <div className="flex flex-col justify-center items-center pt-16">
-          <h2 className="font-mono font-bold text-3xl bg-black text-white p-5 rounded-2xl">Ödəniş Üsulları</h2>
+          <h2 className="font-mono font-bold text-3xl bg-black text-white p-5 rounded-2xl border-double border-4 border-sky-500">Ödəniş Üsulları</h2>
         </div>
         <div className="flex flex-col items-center justify-center pt-16">
-          <div>
+          <div className="border-dashed border-4 border-sky-500 h-auto p-2 md:p-5">
             <Iconlar active={active} setActive={setActive} />
           </div>
           <div>

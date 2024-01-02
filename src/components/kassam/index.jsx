@@ -31,8 +31,8 @@ const Kassam = ({ active, setActive }) => {
                 {active === "kassam" ? (
                   <div className="grid grid-cols-2 justify-center items-center w-full pt-12 gap-20 md:grid-cols-4">
                     {data.map((item) => (
-                      <div className="flex flex-col items-center justify-center bg-gray-300 rounded-xl p-5 gap-4">
-                        <img className="w-20 h-20" src={item.photo} alt="" />
+                      <div className="flex flex-col items-center justify-center bg-gray-300 rounded-xl gap-4 border-double border-4 border-slate-950 p-5">
+                        <img className="w-20 h-20 object-cover" src={item.photo} alt="" />
                         <h2 className="font-mono">{item.name}</h2>
                       </div>
                     ))}
